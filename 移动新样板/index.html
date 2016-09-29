@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="itgs-ju">
+		<img class="jua" src="./img/juhua.png" alt="">
+		<img class="jub" src="./img/laoying.png" alt="">
+	</div>
+	<div class="itgs-main">
+		<p class="itgs-No">故事接龙第一期：</p>
+		<div class="itgs-bk">
+			<!-- <div class="itgs-chline"></div>
+			<div class="itgs-shline"></div> -->
+			<p class="itgs-tit">那个谁谁谁和谁谁谁的故事</p>
+			<p class="itgs-nr Jcontent">故事发生在现代，学生黄小明暗恋着李如花，一天晚上他发现李如花给黑衣人跟踪了，于是他一路追踪，但是突然！黑衣人回头了，小明为了避免被发现，抬头看了下天，但是低下头时却发现如花已经和黑衣人一同消失了，小明十分懊悔，但也于事无补。正当小明痛苦时，听见有人在背后叫他，他一回头，:“黑…”，“啪”的一声，小明被一拳正中脸部，晕倒在地，所幸黑衣人没有掳走他，但是往他嘴里强行塞了几粒药。</p>
+		</div>
+		<div class="itgs-jt"></div>
+		<div class="itgs-sj">
+			<span class="itgs-sj-yd">阅读：</span>
+			<span>0</span>
+			<span class="itgs-sj-zk">展开▽</span>
+			<span>0</span>
+			<span class="itgs-sj-zd">：赞点</span>
+		</div>
+		<div class="itgs-gd">
+			<div class="itgs-djpl">
+				<p class="itgs-bbbb">BbBbBbBbBbBbBbBbBbBbBbBbBb</p>
+				<a href="#">
+					<img src="./img/pinglun.png" alt="">
+					<p class="itgs-awpl">按我评论</p>
+				</a>
+			</div>
+		</div>
+		<div class="itgs-plbf Jcontent2">
+			<div class="itgs-list">
+				<div class="itgs-pl">
+					<div class="itgs-imgk"><img src="./img/wxtx.png" alt=""></div>   <!-- 微信头像 -->
+					<div class="itgs-info">
+						<div class="itgs-wxnc pull-left">微信昵称</div><span class="pull-left">:</span>
+						<div class="itgs-wxpl pull-left">评论</div>
+					</div>
+					<div class="itgs-time">2016-09-26</div>
+					<!-- <span class="itgs-wxnc">微信昵称：</span>
+					<span class="itgs-wxpl">评论</span> -->
+				</div>
+				<div class="zan"><a href="#"><img src="./img/zan.jpg" alt=""></a></div>
+			</div><!--list end-->
+			<div class="itgs-list">
+				<div class="itgs-pl">
+					<div class="itgs-imgk"><img src="./img/wxtx.png" alt=""></div>   <!-- 微信头像 -->
+					<div class="itgs-info">
+						<div class="itgs-wxnc pull-left">微信昵称</div><span class="pull-left">:</span>
+						<div class="itgs-wxpl pull-left">评论</div>
+					</div>
+					<div class="itgs-time">2016-09-26</div>
+					<!-- <span class="itgs-wxnc">微信昵称：</span>
+					<span class="itgs-wxpl">评论</span> -->
+				</div>
+				<div class="zan"><img src="img/zan.jpg" alt=""></div>
+			</div><!--list end-->
+			<div class="itgs-list">
+				<div class="itgs-pl">
+					<div class="itgs-imgk"><img src="./img/wxtx.png" alt=""></div>   <!-- 微信头像 -->
+					<div class="itgs-info">
+						<div class="itgs-wxnc pull-left">微信昵称</div><span class="pull-left">:</span>
+						<div class="itgs-wxpl pull-left">评论</div>
+					</div>
+					<div class="itgs-time">2016-09-26</div>
+					<!-- <span class="itgs-wxnc">微信昵称：</span>
+					<span class="itgs-wxpl">评论</span> -->
+				</div>
+				<div class="zan"><a href="#"><img src="./img/zan.jpg" alt=""></a></div>
+			</div><!--list end-->
+		</div>
+		<p class="itgs-pl-zk">展开▽</p>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/rem.js"></script>
+	<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+	<script>
+	//点击阅读全文显示全部内容
+	$(document).on("click", ".itgs-sj-zk", function() {
+		if ($(".itgs-nr").hasClass("Jcontent")) {
+          $(".itgs-sj-zk").html("收起△");
+        } else {
+          $(".itgs-sj-zk").html("展开▽");
+        }
+        $(".itgs-nr").toggleClass("Jcontent");
+    });
+
+    $(document).on("click", ".itgs-pl-zk", function() {
+		if ($(".itgs-plbf").hasClass("Jcontent2")) {
+          $(".itgs-pl-zk").html("收起△");
+        } else {
+          $(".itgs-pl-zk").html("展开▽");
+        }
+        $(".itgs-plbf").toggleClass("Jcontent2");
+    });
+	</script>
+</body>
+</html>

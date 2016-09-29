@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-05-29 17:11:01
+ * @version $Id$
+ */
+* { padding: 0; margin: 0; transition-delay:0ms; transition-timing-function:linear; transition-duration:260ms; transition-property:color, background-color, background-image, transform, rectangle; }
+html { font-size:100px; height:100%; }
+a { border:0; text-decoration: none; }
+input { outline:none; }
+img, input { border:0; vertical-align:middle; }
+li { list-style: none; }
+body { width:100%; padding: 0; margin: 0 auto; font-family: '微软雅黑'; font-size:0.5rem; }
+.pull-left { float:left; }
+.pull-right { float:right; }
+.clear { clear:both; }
+/*主体部分*/
+
+
+
+.itgs-ju .jua{
+	z-index: 1;
+	float: right;
+	position: relative;
+}
+.itgs-ju .jub{
+	margin-right: -81px;
+	float: right;
+	position: relative;
+}
+.itgs-main{
+	position: absolute;
+	width: 100%;
+}
+.itgs-No{
+	font-size: 0.18rem;
+	font-family: '黑体';
+	margin-left: 0.6rem;
+	margin-top: 0.13rem;
+}
+.itgs-bk{
+	width: 5.15rem;
+	margin: 0 auto;
+	border-top: 0.02rem solid #000;
+	border-left: 0.02rem solid #000;
+}
+.itgs-tit{
+	font-size: 0.28rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.15rem;
+	margin-bottom: 0.15rem;
+}
+.itgs-nr{
+    font-size: 0.25rem;
+    line-height: 0.4rem;
+    margin-left: 0.1rem;
+    margin-right: 0.01rem;
+}
+.itgs-jt{
+	background-image: url("../img/jt.png");
+	background-repeat: no-repeat;
+	width: 5.16rem;
+	height: 0.6rem;
+	margin: 0 auto;
+    background-size: 50%;
+}
+.itgs-sj{
+    width: 5.15rem;
+    margin: 0 auto;
+    height: 0.5rem;
+}
+.itgs-sj span{
+	font-size: 0.215rem;
+	color: #010101;
+	font-family: '幼圆';
+	float: left;
+}
+.itgs-sj-zk{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: 0.48rem;
+    text-align: center;
+}
+.itgs-djpl{
+	float: right;
+}
+.itgs-bbbb{
+	font-size: 0.148rem;
+	font-family: 'Gadugi';
+	float: left;
+	margin-top: 0.15rem;
+	margin-right: 0.1rem;
+}
+.itgs-djpl img{
+	float: left;
+	margin-right: 0.1rem;
+}
+.itgs-awpl{
+	font-size: 0.079rem;
+	font-family: '幼圆';
+	float: left;
+	margin-right: 0.1rem;
+	color: #000;
+}
+.itgs-gd{
+	height: 0.5rem;
+}
+.itgs-pl{
+	width: 5.15rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	border: 0.02rem solid #d9d9d9;
+	margin: 0.2rem auto 0;
+	position: relative;
+	font-size: 0.215rem;
+}
+.itgs-imgk{
+	height: 0.44rem;
+	width: 0.44rem;
+	overflow: hidden;
+	float: left;
+}
+.itgs-pl img{
+	width: 100%;
+    vertical-align: top;
+}
+.itgs-wxnc{
+	font-size: 0.215rem;
+	font-family: '黑体';
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 0.9rem;
+}
+.itgs-wxpl{
+	font-size: 0.215rem;
+	font-family: '黑体';
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 2.5rem;
+    margin-left: 0.08rem;
+}
+.itgs-time{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 0.1rem;
+	color: #999;
+}
+.itgs-list{position: relative;}
+.itgs-list .zan{
+	position: absolute;
+	right: 0.08rem;
+	top: 0;
+}
+.itgs-list .zan img{
+    width: 0.5rem;
+    vertical-align: top;
+}
+.itgs-pl-zk{
+    margin: 0 auto;
+    width: 0.48rem;
+    font-size: 0.22rem;
+    font-family: "幼圆";
+    text-align: center;
+}
+
+
+
+
+
+.Jcontent {
+    height: 200px !important;
+    overflow: hidden;
+}
+.Jcontent2 {
+    height: 150px !important;
+    overflow: hidden;
+}
